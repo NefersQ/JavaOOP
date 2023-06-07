@@ -73,12 +73,12 @@ public class MainmenuC {
 
 
     public void addbutOnClick(ActionEvent a) throws IOException { //open adding menu
-        Aux helper = new Aux();
+        Help helper = new Help();
         helper.newScene(a, "Adding", "Adding.fxml");
     }
     public void accountsOnClick(ActionEvent a) throws IOException { //open accounts menu
         if(LoginMenuC.Roots) {
-            Aux helper = new Aux();
+            Help helper = new Help();
             helper.newScene(a, "Accounts", "AccountsMenu.fxml");
         }else{
             Alert alert = new Alert(Alert.AlertType.ERROR);
@@ -89,11 +89,11 @@ public class MainmenuC {
         }
     }
     public void delbutOnClick(ActionEvent a) throws IOException { //open deleting menu
-        Aux helper = new Aux();
+        Help helper = new Help();
         helper.newScene(a, "Deleting", "Deleting.fxml");
     }
     public void editbutOnClick(ActionEvent a) throws IOException { //open editing menu
-        Aux helper = new Aux();
+        Help helper = new Help();
         helper.newScene(a, "Editing", "Editing.fxml");
     }
 

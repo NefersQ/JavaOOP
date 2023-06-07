@@ -63,7 +63,7 @@ public class EditingC {
     int dIndex = -1;
     int pIndex = -1;
     public void backbutOnClick(ActionEvent a) throws IOException { //back to menu function
-        Aux helper = new Aux();
+        Help helper = new Help();
         helper.newScene(a, "Main Menu", "Mainmenu.fxml");
     }
     public void pLoad(ActionEvent a) throws IOException {

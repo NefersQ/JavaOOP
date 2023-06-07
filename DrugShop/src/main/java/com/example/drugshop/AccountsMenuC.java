@@ -62,7 +62,7 @@ public class AccountsMenuC {
     int aIndex = -1;
 
     public void backbutOnClick(ActionEvent a) throws IOException { //back to menu function
-        Aux helper = new Aux();
+        Help helper = new Help();
         helper.newScene(a, "Main Menu", "Mainmenu.fxml");
     }
     public void editLoad(ActionEvent a) throws IOException { //function to load account from edit text field

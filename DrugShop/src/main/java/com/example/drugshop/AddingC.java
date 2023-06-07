@@ -42,7 +42,7 @@ public class AddingC {
     private Button backbut;
     int sameInput = 0;
     public void backbutOnClick(ActionEvent a) throws IOException {
-        Aux helper = new Aux();
+        Help helper = new Help();
         helper.newScene(a, "Main Menu", "Mainmenu.fxml");
     }
     public void addNewDrug(ActionEvent a) throws IOException {

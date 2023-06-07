@@ -24,7 +24,7 @@ public class DeletingC {
     @FXML
     private TextField delpat;
     public void backbutOnClick(ActionEvent a) throws IOException { //back to menu function
-        Aux helper = new Aux();
+        Help helper = new Help();
         helper.newScene(a, "Main Menu", "Mainmenu.fxml");
     }
     public void deletepat(ActionEvent a) throws IOException { //function to delelte patient

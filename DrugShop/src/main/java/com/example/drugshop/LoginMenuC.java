@@ -8,7 +8,6 @@ import java.io.IOException;
 import java.util.Objects;
 
 import javafx.scene.control.Button;
-import javafx.scene.input.MouseEvent;
 
 public class LoginMenuC {
 
@@ -24,7 +23,7 @@ public class LoginMenuC {
     public Boolean checker= false;
 
     public void logbutOnClick(ActionEvent a) throws IOException {
-        Aux helper = new Aux();
+        Help helper = new Help();
         Roots = true;
         helper.newScene(a, "Menu", "Mainmenu.fxml");
     }
@@ -35,7 +34,7 @@ public class LoginMenuC {
                 if (Main.lacc.get(k).Admin) {
                     Roots = true;
                 }
-                Aux helper = new Aux();
+                Help helper = new Help();
                 helper.newScene(a, "Menu", "Mainmenu.fxml");
                 checker = true;
                 break;
