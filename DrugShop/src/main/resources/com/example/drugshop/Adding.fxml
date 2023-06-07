@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" style="-fx-background-color: #52733B;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.drugshop.AddingC">
+   <children>
+      <TextField fx:id="namebut" layoutX="129.0" layoutY="114.0" prefHeight="29.0" prefWidth="142.0" style="-fx-border-color: #006400;" />
+      <Text fill="#e4ebf2" layoutX="406.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add new drug" textAlignment="CENTER" wrappingWidth="233.13671875">
+         <font>
+            <Font name="Yu Gothic Bold" size="22.0" />
+         </font>
+      </Text>
+      <TextField fx:id="snamebut" layoutX="129.0" layoutY="151.0" prefHeight="29.0" prefWidth="142.0" style="-fx-border-color: #006400;" />
+      <Text fill="#e4ebf2" layoutX="40.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Add new Patient" textAlignment="CENTER" wrappingWidth="233.13671875">
+         <font>
+            <Font name="Yu Gothic Bold" size="22.0" />
+         </font>
+      </Text>
+      <TextField fx:id="recidbut" layoutX="129.0" layoutY="186.0" prefHeight="29.0" prefWidth="142.0" style="-fx-border-color: #006400;" />
+      <TextField fx:id="diseasebut" layoutX="129.0" layoutY="226.0" prefHeight="29.0" prefWidth="142.0" style="-fx-border-color: #006400;" />
+      <TextField fx:id="amountbut" layoutX="129.0" layoutY="265.0" prefHeight="29.0" prefWidth="142.0" style="-fx-border-color: #006400;" />
+      <TextField fx:id="pidbut" layoutX="129.0" layoutY="79.0" prefHeight="29.0" prefWidth="142.0" style="-fx-border-color: #006400;" />
+      <TextField fx:id="d2id" layoutX="462.0" layoutY="79.0" prefHeight="29.0" prefWidth="142.0" style="-fx-border-color: #006400;" />
+      <TextField fx:id="dnamebut" layoutX="462.0" layoutY="114.0" prefHeight="29.0" prefWidth="142.0" style="-fx-border-color: #006400;" />
+      <TextField fx:id="dpricebut" layoutX="462.0" layoutY="151.0" prefHeight="29.0" prefWidth="142.0" style="-fx-border-color: #006400;" />
+      <Text fill="#e4ebf2" layoutX="74.0" layoutY="102.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PID" textAlignment="CENTER" wrappingWidth="44.13671875">
+         <font>
+            <Font name="Yu Gothic Bold" size="22.0" />
+         </font>
+      </Text>
+      <Text fill="#e4ebf2" layoutX="53.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name" textAlignment="CENTER" wrappingWidth="64.13671875">
+         <font>
+            <Font name="Yu Gothic Bold" size="22.0" />
+         </font>
+      </Text>
+      <Text fill="#e4ebf2" layoutX="18.0" layoutY="174.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Surname" textAlignment="CENTER" wrappingWidth="101.0">
+         <font>
+            <Font name="Yu Gothic Bold" size="22.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="30.0" layoutY="313.0" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="233.13671875">
+         <font>
+            <Font name="Yu Gothic Bold" size="22.0" />
+         </font>
+      </Text>
+      <Text fill="#e4ebf2" layoutX="47.0" layoutY="207.0" strokeType="OUTSIDE" strokeWidth="0.0" text="RecID" textAlignment="CENTER" wrappingWidth="77.13671875">
+         <font>
+            <Font name="Yu Gothic Bold" size="22.0" />
+         </font>
+      </Text>
+      <Text fill="#e4ebf2" layoutX="27.0" layoutY="288.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Amount" textAlignment="CENTER" wrappingWidth="101.0">
+         <font>
+            <Font name="Yu Gothic Bold" size="22.0" />
+         </font>
+      </Text>
+      <Text fill="#e4ebf2" layoutX="35.0" layoutY="247.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Disease" textAlignment="CENTER" wrappingWidth="86.0">
+         <font>
+            <Font name="Yu Gothic Bold" size="22.0" />
+         </font>
+      </Text>
+      <Button fx:id="backbut" layoutX="14.0" layoutY="409.0" mnemonicParsing="false" onAction="#backbutOnClick" prefHeight="36.0" prefWidth="109.0" style="-fx-background-color: #84A45A;" text="Back" textFill="#1c4a1a">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Button>
+      <Text fill="#e4ebf2" layoutX="373.0" layoutY="100.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DrugID" textAlignment="CENTER" wrappingWidth="77.13671875">
+         <font>
+            <Font name="Yu Gothic Bold" size="22.0" />
+         </font>
+      </Text>
+      <Text fill="#e4ebf2" layoutX="388.0" layoutY="135.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Name" textAlignment="CENTER" wrappingWidth="64.13671875">
+         <font>
+            <Font name="Yu Gothic Bold" size="22.0" />
+         </font>
+      </Text>
+      <Text fill="#e4ebf2" layoutX="391.0" layoutY="174.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Price" textAlignment="CENTER" wrappingWidth="57.13671875">
+         <font>
+            <Font name="Yu Gothic Bold" size="22.0" />
+         </font>
+      </Text>
+      <Button fx:id="savepatbut" layoutX="164.0" layoutY="362.0" mnemonicParsing="false" onAction="#addNewPatient" prefHeight="36.0" prefWidth="109.0" style="-fx-background-color: #84A45A;" text="Add" textFill="#1c4a1a">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Button>
+      <Button fx:id="savedrugbut" layoutX="468.0" layoutY="227.0" mnemonicParsing="false" onAction="#addNewDrug" prefHeight="36.0" prefWidth="109.0" style="-fx-background-color: #84A45A;" text="Add" textFill="#1c4a1a">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Button>
+      <TextField fx:id="didbut" layoutX="129.0" layoutY="303.0" prefHeight="29.0" prefWidth="142.0" style="-fx-border-color: #006400;" />
+      <Text fill="#e4ebf2" layoutX="39.0" layoutY="324.0" strokeType="OUTSIDE" strokeWidth="0.0" text="DrugID" textAlignment="CENTER" wrappingWidth="77.13671875">
+         <font>
+            <Font name="Yu Gothic Bold" size="22.0" />
+         </font>
+      </Text>
+   </children>
+</Pane>

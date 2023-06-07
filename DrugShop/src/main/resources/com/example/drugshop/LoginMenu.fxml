@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" style="-fx-background-color: #52733B;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.drugshop.LoginMenuC">
+   <children>
+      <Text fill="#e4ebf2" layoutX="145.0" layoutY="80.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Drug shop database " textAlignment="CENTER" wrappingWidth="364.13671875">
+         <font>
+            <Font name="Yu Gothic Bold" size="41.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Text>
+      <Button fx:id="loginbut" layoutX="238.0" layoutY="327.0" mnemonicParsing="false" onAction="#loginbutOnClick" prefHeight="53.0" prefWidth="179.0" style="-fx-background-color: #84A45A;" text="Enter" textFill="#1c4a1a">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Button>
+      <TextField fx:id="logT" layoutX="246.0" layoutY="240.0" promptText="Login" />
+      <PasswordField fx:id="passwT" layoutX="246.0" layoutY="282.0" promptText="Password" />
+      <Pane prefHeight="200.0" prefWidth="640.0" />
+      <Button fx:id="logbut" layoutX="568.0" mnemonicParsing="false" onAction="#logbutOnClick" prefHeight="77.0" prefWidth="74.0" style="-fx-background-color: #52733B;" textFill="#1c4a1a">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>

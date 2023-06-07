@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="480.0" prefWidth="640.0" style="-fx-background-color: #52733B;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.drugshop.DeletingC">
+   <children>
+      <Text fill="#e4ebf2" layoutX="43.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" text="  Delete Patient by PID" textAlignment="CENTER" wrappingWidth="244.13671875">
+         <font>
+            <Font name="Yu Gothic Bold" size="22.0" />
+         </font>
+      </Text>
+      <TextField fx:id="delpat" layoutX="94.0" layoutY="131.0" prefHeight="29.0" prefWidth="142.0" style="-fx-border-color: #006400;" />
+      <TextField fx:id="deldrug" layoutX="391.0" layoutY="130.0" prefHeight="29.0" prefWidth="142.0" style="-fx-border-color: #006400;" />
+      <Text fill="#e4ebf2" layoutX="335.0" layoutY="101.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Delete Drug by DrugID" textAlignment="CENTER" wrappingWidth="254.13671875">
+         <font>
+            <Font name="Yu Gothic Bold" size="22.0" />
+         </font>
+      </Text>
+      <Button fx:id="backbut" layoutX="28.0" layoutY="409.0" mnemonicParsing="false" onAction="#backbutOnClick" prefHeight="36.0" prefWidth="109.0" style="-fx-background-color: #84A45A;" text="Back" textFill="#1c4a1a">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Button>
+      <Button fx:id="delpatbut" layoutX="101.0" layoutY="183.0" mnemonicParsing="false" onAction="#deletepat" prefHeight="57.0" prefWidth="129.0" style="-fx-background-color: #84A45A;" text="Delete" textFill="#1c4a1a">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Button>
+      <Button fx:id="deldbut" layoutX="398.0" layoutY="190.0" mnemonicParsing="false" onAction="#deletedrug" prefHeight="57.0" prefWidth="129.0" style="-fx-background-color: #84A45A;" text="Delete" textFill="#1c4a1a">
+         <font>
+            <Font size="27.0" />
+         </font>
+      </Button>
+   </children>
+</Pane>
